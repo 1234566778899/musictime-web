@@ -1,0 +1,29 @@
+.content {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.img-item {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.filter {
+    padding: 10px;
+}
+
+.filter ul {
+    list-style: none;
+}
+
+.filter li {
+    display: flex;
+    align-items: center;
+    padding: 5px 3px;
+    cursor: pointer;
+}
+
+.filter li:hover {
+    background-color: #F7F7F7;
+}
